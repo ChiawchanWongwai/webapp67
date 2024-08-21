@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(101, 198, 253);
+}
+h1{
+    text-align: center;
+    margin: 10px;
+    padding: 19px;
+}
+.login{
+    background-color: rgb(209, 244, 255);
+    text-align: center;
+}
+.dropbtn {
+    background-color: #202520;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+.drop {
+    position: relative;
+    display: inline-block;
+}
+.dropcontent {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    z-index: 1;
+}
+.dropcontent a {
+    color: black;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: block;
+}
+.drop:hover .dropcontent{
+    float:inline-end;
+    display: block;
+}
+.logg{
+
+}
+.label{
+    float: left;
+    text-align: left;
+}

@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: white;
+    overflow: hidden;
+}
+nav ul .bar{
+    margin: px;
+    padding: 10px;
+    display: flex;
+}
+nav ul.bar li{
+    float: left;
+    list-style: none;
+    padding: 10px;
+}
+nav ul.bar li a{
+    text-decoration: none;
+    color: grey;
+}
+nav ul.bar li a:hover{
+    color: black;
+}
+nav .btn{
+    float: right;
+    color: blue;
+    border: 1px solid black;
+}
+nav .btn{
+    margin: 5px;
+    padding: 5px;
+}
+body{
+    background-image: url(img/blackgroud.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
