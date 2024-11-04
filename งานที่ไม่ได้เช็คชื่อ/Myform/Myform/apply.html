@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>แบบฟอร์มสมัครเข้ารับราชการ</center>
+    <br>
+    <form name="form1" method="post" action="apply.php">
+        ชื่อ <input type="text" name="firstname">
+        นามสกุล <input type="text" name="lastname">
+        <br>
+        <br>
+        เพศ<input name="sex" type="radio" value="f">ชาย
+        <input name="sex" type="radio" value="m">หญิง
+        <br>
+        <br>
+        ระดับนักศึกษา
+        <select name="education">
+            <option value="1">ปริญญาตรี</option>
+            <option value="2">ปริญญาโท</option>
+            <option value="3">ปริญญาเอก</option>
+        </select>
+        <br>
+        <br>
+        ความสามารถทางภาษา
+        <input name="eng" type="checkbox">อังกฤษ
+        <input name="china" type="checkbox">จีน
+        <input name="japan" type="checkbox">ญี่ปุ่น
+        <input name="france" type="checkbox">ฝรั่งเศส
+        <br>
+        <br>
+        ความสามารถพิเศษ
+        <textarea name="perform">กรุณากรอก</textarea>
+        <br>
+        <br>
+        <input type="submit" name="submit" value="ส่งใบสมัคร">
+        <input type="reset" name="reset" value="เคลียร์ข้อมูล">
+    </form>
+</body>
+</html>

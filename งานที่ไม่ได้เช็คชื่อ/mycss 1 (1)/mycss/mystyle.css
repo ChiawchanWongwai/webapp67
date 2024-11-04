@@ -1,0 +1,17 @@
+#para2 {
+    color: rgb(255, 23, 255);
+    background-color: beige;
+    margin-right: 278px;
+    margin-left: 278px;
+}
+body {
+    text-align: center;
+    margin-top: 50px;
+    background-image:url("bg2.jpg");
+}
+b {
+    font-size: 22px
+}
+a {
+    text-decoration: none;
+}
