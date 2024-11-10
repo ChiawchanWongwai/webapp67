@@ -1,0 +1,46 @@
+body {
+  color: #000000;
+  text-align: center;
+  background: url(imgs/bg_\(2\).jpg);
+  font-family: poppins;
+  background-position: center;
+  background-size: cover;
+  height: 98.2vh;
+  font-size: 20px;
+}
+
+.container {
+  margin: 0 auto;
+  padding-top: 140px;
+  padding-bottom: 50px;
+  padding-right: 45px;
+  padding-left: 20px;
+}
+
+form {
+  margin-bottom: 40px;
+}
+
+button {
+  color: rgb(0, 0, 0);
+  padding: 14px 20px;
+  margin-top: 25px;
+  width: 15%;
+  border-radius: 10px;
+  border: 3px solid #000000;
+  background-color: transparent;
+  transition: 0.6s ease;
+  animation: animate 2s 1;
+  font-size: 15px;
+  font-weight: 900;
+}
+
+button:hover {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+}
+
+img {
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
